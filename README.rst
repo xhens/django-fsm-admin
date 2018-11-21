@@ -1,4 +1,3 @@
-.. _QuickCast: http://quick.as/aq8fogo
 .. _django-fsm: https://github.com/kmmbvnr/django-fsm
 
 ===============================
@@ -18,7 +17,7 @@ Or from github:
 
 ::
 
-    $ pip install -e git://github.com/gadventures/django-fsm-admin.git#egg=django-fsm-admin
+    $ pip install -e git://github.com/xhens/django-fsm-admin.git#egg=django-fsm-admin
 
 Usage
 -----
@@ -42,7 +41,7 @@ Try the example
 
 ::
 
-    $ git clone git@github.com:gadventures/django-fsm-admin.git
+    $ git clone git@github.com:xhens/django-fsm-admin.git
     $ cd django-fsm-admin
     $ mkvirtualenv fsm_admin
     $ pip install -r requirements.txt
@@ -50,13 +49,4 @@ Try the example
     $ cd example
     $ ./manage.py syncdb
     $ ./manage.py runserver
-
-Demo
-----
-Watch a QuickCast_ of the django-fsm-admin example
-
-.. image:: http://i.imgur.com/IJuE9Sr.png
-    :width: 728px
-    :height: 346px
-    :target: QuickCast_
 
